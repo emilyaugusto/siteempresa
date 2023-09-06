@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+
+
+header{
+    padding: 20px 70px;
+    background: #1d1d1f;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation .logo{
+    width: 140px;
+    height: 30px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.navigation ul li a{
+    color: #888;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+.navigation ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.navigation .check{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+/* fim da barra de navegação */
+
+
+#sobre{
+    background-color: #ffffff;
+    min-height: 400px;
+    max-width: auto;
+    align-items: center;
+}
+.sobre-text h1{
+    color: #313131;
+    font-size: 2.0rem;
+    font-family: "Century Gothic";
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right: 10%;
+    text-align: left;
+}
+.sobre-text h2{
+    color: #313131;
+    font-size: 1.3rem;
+    font-family: "Century Gothic";
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-weight: 100;
+}
+
+
+/* fim sessão sobre nós */
+
+#valores {   
+    background-color: #ffffff;
+    min-height: 550px;
+    max-width: auto;
+}
+
+.val-q1-img {
+    width: auto;
+    margin-top: 30px;
+    margin-left: 13%;
+    margin-right: auto;
+    position: absolute;
+}
+
+.val-q2-img {
+    width: auto;
+    margin-top: 30px;
+    margin-left: 43%;
+    margin-right: auto;
+    position: absolute;
+}
+
+
+.val-q3-img {
+    width: auto;
+    margin-top: 30px;
+    margin-left: 73%;
+    margin-right: auto;
+    position: absolute;
+}
+
+
+.val-text h1{
+    color: #313131;
+    font-size: 1.0rem;
+    font-family: "Century Gothic";
+    margin-top: 113px;
+    margin-left: 12%;
+    margin-right: 70%;
+    text-align:justify;
+    position: absolute;
+    font-weight: 100;
+}
+.val-text h2{
+    color: #313131;
+    font-size: 1.0rem;
+    font-family: "Century Gothic";
+    margin-top: 113px;
+    margin-left: 42%;
+    margin-right: 40%;
+    text-align: justify;
+    position: absolute;
+    font-weight: 100;
+}
+.val-text h3{
+    color: #313131;
+    font-size: 1.0rem;
+    font-family: "Century Gothic";
+    margin-top: 113px;
+    margin-left: 72%;
+    margin-right: 10%;
+    text-align: left;
+    position: absolute;
+    font-weight: 100;
+}
+ 
+.val-text h4{
+    color: #0f0f0f;
+    font-size: 1.3rem;
+    font-family: "Century Gothic";
+    margin-top: 45px;
+    margin-left: 20%;
+    margin-right: 200%;
+    text-align: left;
+    position: absolute;
+}
+.val-text h5{
+    color: #0f0f0f;
+    font-size: 1.3rem;
+    font-family: "Century Gothic";
+    margin-top: 45px;
+    margin-left: 50%;
+    margin-right: 200%;
+    text-align: left;
+    position: absolute;
+}
+.val-text h6{
+    color: #0f0f0f;
+    font-size: 1.3rem;
+    font-family: "Century Gothic";
+    margin-top: 45px;
+    margin-left: 80%;
+    margin-right: 200%;
+    text-align: left;
+    position: absolute;
+}
+
+
+/* fim sessão valores */
+
+
+
+#form {   
+    background-color: rgba(16, 144, 153, 0.199);
+    min-height: 600px;
+    max-width: auto;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.form-image {
+    margin-top: 50px;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B4549;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+
+.form-image img {
+    width: 31rem;
+}
+
+.form {
+    margin-top: 50px;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+
+.form-header {
+    margin-top: 50px;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+
+.login-button button:hover {
+    background-color: #2ec1cc;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #2ec1cc;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #2ec1cc;
+}
+
+.input-box label,
+.tempo-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.tempo-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.tempo-input {
+    display: flex;
+    align-items: center;
+}
+
+.tempo-input input {
+    margin-right: 0.35rem;
+}
+
+.tempo-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+
+.enviar-button button {
+    width: 50%;
+	margin-right: 150px;
+    border: none;
+    background-color: #2ec1cc;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar-button button:hover {
+    background-color: #2ec1cc;
+}
+
+.enviar-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #000000;
+}
+
